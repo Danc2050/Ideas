@@ -2,3 +2,6 @@
   e.g., the keyword 'once' could be used.
         if once i == 2:
           print("This only happens once")
+
+2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
+Ex:   [The] -> [house] -> [was] -> [red].
