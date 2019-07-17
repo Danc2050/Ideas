@@ -33,7 +33,11 @@ The first is handled, in-part (what is acceptable), by the flow-control designer
 # Automating a task
 This program, and many "automated tasks", can be realized by realizing that every operation is a subset of a group of operations as demonstrated above in listing items 1-4. For example, item 4 includes many mathematical operations (add, subtract, divide, multiply, etc.).
 
-The remainder of "automating a task" involves matching an operation with a implementation that covers all cases. For example, the flow graph is one in which a set (automating a program) is attempting to cover all cases inside that set (all implementation details of writing a program). For example, a program may read the flow graph and then write to a text file (crude implementation), specifying a line number. But...
+The remainder of "automating a task" involves matching an operation with a implementation that covers all cases. For example, the flow graph is one in which a set (automating a program) is attempting to cover all cases inside that set (all implementation details of writing a program). For example, a program may read the flow graph and then write to a text file (crude implementation), specifying a line number. 
+
+It may also create classes to align with individual flow control "elements". The classes may have the elements needed (e.g., 'x' in figure 1') and the subclass (sub flow control element) may check if it's parent (or sibling if it is an operation concurrently?) has that element (or just check if the line number has it...). All variables may be public or all classes members public... who knows at this point. Additionally, each flow control element may receive an index... so each class which represents an index may be hashed for quick access and retrieved and then accessed (member elements) quickly... There are many implementation details perhaps.
+
+But...
 
 Further questions need to be asked:
 1) Does this essentially create an inefficient one function program? 
