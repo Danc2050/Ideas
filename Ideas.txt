@@ -54,3 +54,21 @@ Figure 1:
         |
        *do*
 
+4) This is a different implementation idea, similar to idea #3, but more centered on AI.
+Summary: There are little implementations that I know of that converge AI/ML with programming languages. However, if a project could be linked together, the load on programmers would be severely minimized and companies would not have to pay them as much or as often. I believe that AI/ML could be used to predict what a programmer wants, without him needing to learn or know syntax or semantics.
+
+For example, I have been working with Java date objects lately. The system is entirely convoluted. If I want a date, there are multiple ways to do it and it can be confusing which way to use and what you can return to what date object, etc.
+
+If AI/ML could aid in this process of using libraries to get what a programmer wants, without them needing to know said libraries, this would expedite the process of programming.
+
+My idea would be this:
+- Have some sign to the compiler that this is going to be an ML/AI command (e.g., ``This is my command``).
+- Let the body of that command resemble what the AI/ML will parse and search the libraries for.
+  -E.g., ``Create a date object of the form 'mm/dd/yyy'`` would return a Date object (or perhaps write the code on that line) as a result.
+- The AI/ML model would learn by programmer input. Was it what they were looking for? No? A series of key combinations could do the following:
+  - Iterate through options *Note: I like this option the best because by choosing and sticking with this option, the programmer is signaling that it was a good option*.
+  - Vote options (good or bad?).
+  
+
+#Final thoughts
+I believe that this idea could bear fruit. If anything, it could be a partial implementation. A tool that a programmer could use who is just learning the language or who may not want to look up library code and take a chance on AI/ML model to find the correct library/syntax/semantics.
