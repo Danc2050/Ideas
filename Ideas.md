@@ -1,13 +1,13 @@
-#1) A language feature that may be beneficial to add: have a piece of code that you can write that only executes once.
+# 1) A language feature that may be beneficial to add: have a piece of code that you can write that only executes once.
   e.g., the keyword 'once' could be used.
         if once i == 2:
           print("This only happens once")
 
-#2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
+# 2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
 Ex:   [The] -> [house] -> [was] -> [red].
 UPDATE: This already exists... but they are often not free, don't have proper import (copy and paste is the primary format) and lack functionality (e.g., rewind). You could do a better job FOR SURE.
 
-#3) An AI to write a program... with some help
+# 3) An AI to write a program... with some help
 
 Summary: All programs may be represented as a large flow graph, if we are to enumerate all outcomes. So, if we know the outcomes that are desirable, we can teach an AI to create a program that operates off of a flow graph as seen in figure 1. This involves both human and AI components... but AI may do most of the work.
 
@@ -54,7 +54,7 @@ Figure 1:
         |
        *do*
 
-4) This is a different implementation idea, similar to idea #3, but more centered on AI.
+# 4) This is a different implementation idea, similar to idea #3, but more centered on AI.
 Summary: There are little implementations that I know of that converge AI/ML with programming languages. However, if a project could be linked together, the load on programmers would be severely minimized and companies would not have to pay them as much or as often. I believe that AI/ML could be used to predict what a programmer wants, without him needing to learn or know syntax or semantics.
 
 For example, I have been working with Java date objects lately. The system is entirely convoluted. If I want a date, there are multiple ways to do it and it can be confusing which way to use and what you can return to what date object, etc.
