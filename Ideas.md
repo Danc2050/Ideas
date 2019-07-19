@@ -1,13 +1,13 @@
-1) A language feature that may be beneficial to add: have a piece of code that you can write that only executes once.
+#1) A language feature that may be beneficial to add: have a piece of code that you can write that only executes once.
   e.g., the keyword 'once' could be used.
         if once i == 2:
           print("This only happens once")
 
-2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
+#2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
 Ex:   [The] -> [house] -> [was] -> [red].
 UPDATE: This already exists... but they are often not free, don't have proper import (copy and paste is the primary format) and lack functionality (e.g., rewind). You could do a better job FOR SURE.
 
-3) An AI to write a program... with some help
+#3) An AI to write a program... with some help
 
 Summary: All programs may be represented as a large flow graph, if we are to enumerate all outcomes. So, if we know the outcomes that are desirable, we can teach an AI to create a program that operates off of a flow graph as seen in figure 1. This involves both human and AI components... but AI may do most of the work.
 
@@ -30,7 +30,7 @@ Furthermore, at a high level, all programs have four operations:
 
 The first is handled, in-part (what is acceptable), by the flow-control designer. The remainder may be handled by the AI/Computer (including the part of checking for errant paths and preventing a user from taking them (e.g., error control).
 
-# Automating a task
+## Automating a task
 This program, and many "automated tasks", can be realized by realizing that every operation is a subset of a group of operations as demonstrated above in listing items 1-4. For example, item 4 includes many mathematical operations (add, subtract, divide, multiply, etc.).
 
 The remainder of "automating a task" involves matching an operation with a implementation that covers all cases. For example, the flow graph is one in which a set (automating a program) is attempting to cover all cases inside that set (all implementation details of writing a program). For example, a program may read the flow graph and then write to a text file (crude implementation), specifying a line number. 
