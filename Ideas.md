@@ -72,3 +72,15 @@ My idea would be this:
 
 #Final thoughts
 I believe that this idea could bear fruit. If anything, it could be a partial implementation. A tool that a programmer could use who is just learning the language or who may not want to look up library code and take a chance on AI/ML model to find the correct library/syntax/semantics.
+
+
+# AI That Uses Logic AND Math to Train A Model
+From the little I know, it seems like AI/ML models use math primarily as their force to train models and logic to program the models.
+
+But logic doesn't seem to be used as a criteria to influence the model to train. What do I mean? I'll explain.
+
+The models that are trained are not given a list of if/else conditions, I think. Parameters are set explicitly, and only then an agent does some sort of thing based on it (logic) or an output is accepted IF (logic) confidence level is above some range. However, what if the ML/AI model sensed something and, based on it, trained itself in some way?
+
+For example, let's assume an AI/ML model knew to perfectly visualize a panda. If a panda existed, it could then proceed to identify something else about the panda -- maybe xray the panda -- which it is not so good at in the current SOTA. Based on the initial absolute, it can begin to xray the panda and identify certain bones (fibula, etc.) and build its x-ray model.
+
+The way we currently have it (or so I think) is that we do not identify the panda before we train the model. We train the model (randomly, even, sometimes) and use math as the primary force. But logic should be considered as a force. How can we use it?
