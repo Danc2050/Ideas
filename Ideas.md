@@ -84,3 +84,9 @@ The models that are trained are not given a list of if/else conditions, I think.
 For example, let's assume an AI/ML model knew to perfectly visualize a panda. If a panda existed, it could then proceed to identify something else about the panda -- maybe xray the panda -- which it is not so good at in the current SOTA. Based on the initial absolute, it can begin to xray the panda and identify certain bones (fibula, etc.) and build its x-ray model.
 
 The way we currently have it (or so I think) is that we do not identify the panda before we train the model. We train the model (randomly, even, sometimes) and use math as the primary force. But logic should be considered as a force. How can we use it?
+
+# Program that re-inputs the same inputs you put into your program so as to enable you to debug at the exact point the problem occurred.
+
+It is annoying, and often unnecessary, to start from point zero of a program/applicataion to get back to the point where the program failed. This project would allow one to be at the step before the program fails by saving the input the user gives to the program and giving it back to the program. Note: This will only work for some program (e.g., static rather than dynamic data-driven programs) and languages (Java or Python would be a good candidate). Android Studio would need a way to mimick the clicks a user does... which wouldn't be impossible.
+
+
