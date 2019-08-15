@@ -89,4 +89,10 @@ The way we currently have it (or so I think) is that we do not identify the pand
 
 It is annoying, and often unnecessary, to start from point zero of a program/applicataion to get back to the point where the program failed. This project would allow one to be at the step before the program fails by saving the input the user gives to the program and giving it back to the program. Note: This will only work for some program (e.g., static rather than dynamic data-driven programs) and languages (Java or Python would be a good candidate). Android Studio would need a way to mimick the clicks a user does... which wouldn't be impossible.
 
+# Program that turns a drawing of a tree into a programmed AST. Or...
 
+This program would be useful for those who don't want to code an AST or lack the skills or knowledge. 
+
+An AST has many uses (?). Particulary, in compilers.
+
+In addition, this program could implement methods. Ideally, the program would actaully have a set of pre-programmed methods and just replicate the data (i.e., the tree). This, in theory, would reduce the need for coders to code an AST.
