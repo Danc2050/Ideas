@@ -96,3 +96,17 @@ This program would be useful for those who don't want to code an AST or lack the
 An AST has many uses (?). Particulary, in compilers.
 
 In addition, this program could implement methods. Ideally, the program would actaully have a set of pre-programmed methods and just replicate the data (i.e., the tree). This, in theory, would reduce the need for coders to code an AST.
+
+# A program that memorizes (or memoizes..?) previous input to a program
+This is a good tool for those that do user testing.
+
+When a user tester is testing a program they follow a linear path, starting at point 0 and moving to point x.
+
+There are a few problems with this:
+1) When they have tested paths and received a segfault at path x, they have no way to return to the previous invocation/safe place before the segfault occurred and proceed to test further. They must start at point 0.
+2) When a user is testing paths, they have no ability to determine if they have traversed all paths (and what values they have inputted) unless they manually write/type this.
+
+A few possible solutions:
+1) A program that memorizes (or memoizes) the input to a given program so it can be fed back in at a later date (e.g., by ./a.out > memorizedResults).
+2) A GUI that draws a tree of possible paths and includes tested solutions the user has completed.
+  - Additionally, a symbolic execution engine could be run on the program pre-emptively and update the tree/picture to reduce user testing from needing to occur.
