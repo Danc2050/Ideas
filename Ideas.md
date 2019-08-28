@@ -3,7 +3,8 @@
         if once i == 2:
           print("This only happens once")
 
-# 2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
+# 2) An application that takes a book and lets you "read" it one word at a time by flashing the words on the screen. 
+The reason? We read faster when only needing to look at words (our eyes don't have to travel as far). There are speed reading apps and techniques for this, but no apps (to my knowledge -- must research) that actually have the ability to take the text of a book and display it in this format. You could rewind and adjust the speed at which words come on the screen etc.
 Ex:   [The] -> [house] -> [was] -> [red].
 UPDATE: This already exists... but they are often not free, don't have proper import (copy and paste is the primary format) and lack functionality (e.g., rewind). You could do a better job FOR SURE.
 
@@ -115,3 +116,12 @@ A few possible solutions:
 Check-out [this link][1] for symbolic execution engines
 
 [1]: https://github.com/ksluckow/awesome-symbolic-execution#tools
+
+# A website that lets the general population refinance student loans
+Student loan repayments have interest rates of ~3-7 interest rate or more. General citizens would like to earn money back on savings, but don't always have options that yield above 1.5% (even "high" interest yield accounts). This is an option for the student to get a lower interest rate on his/her loans and the average citizen to increase the amount gained back while investing.
+
+There are some important details:
+* This should be marketed as a "crowd sourcing" type of thing... like Uber, but the vehicle is loans that you share and users get the benefit of the additional income on investment.
+* A student must verify a steady source of income and documents to prove these and other important details (e.g., loan documents).
+* A citizen can opt to "invest" in any part of the loan.
+* A student and citizen must commit to a period of repayment and investment respectively. Thus, a student may not pay off a loan early. This ensures that the investment by the citizen is kept.
