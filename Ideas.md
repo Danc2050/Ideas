@@ -125,3 +125,16 @@ There are some important details:
 * A student must verify a steady source of income and documents to prove these and other important details (e.g., loan documents).
 * A citizen can opt to "invest" in any part of the loan.
 * A student and citizen must commit to a period of repayment and investment respectively. Thus, a student may not pay off a loan early. This ensures that the investment by the citizen is kept.
+
+# A script to remove compiler errors from files -- WarningsBeGone
+
+If a person compiles from the `src` directory, this program will remove (on a second compilation) the code that causes the warnings to be produced.
+
+For example, if a long standing tool such as [this one](https://www.mersenneforum.org/mayer/README.html#download) produces [many compilation warnings](https://travis-ci.org/tdulcet/Distributed-Computing-Scripts/jobs/559866710), then the majority of these can be removed, without harming the program. Some examples:
+
+- Easy one liners are simple...just remove the line (e.g., unused variable)
+- Lines where an unused variable(s) share a line can be removed by writing the file out again, but without the same item on that line.
+- set but not used
+
+## Other ideas
+- use a folder (like "build"), perhaps named "WarningsBeGone" to include the new files (without warnings)
