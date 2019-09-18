@@ -138,3 +138,11 @@ For example, if a long standing tool such as [this one](https://www.mersenneforu
 
 ## Other ideas
 - use a folder (like "build"), perhaps named "WarningsBeGone" to include the new files (without warnings)
+
+# IsItReadyYet? -- A program to tell you when your program has finished
+I check long running processes too often. A solution? Email or text me when it is done.
+
+## Possible features
+- Send hostname, $USER, etc. of machine (hint: use Teal Dulcet's script), so I know what machine finished and possibly use details about the process (e.g., name of program, PID, etc.) so I know what process finished and even could maybe grab exitcode to see if it exited succesfully and forward these details to me.
+
+- Could be a simple pipe where the program can be started through a BASH command that is globally recognized in the `.bashrc` file.
