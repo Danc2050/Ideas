@@ -146,3 +146,6 @@ I check long running processes too often. A solution? Email or text me when it i
 - Send hostname, $USER, etc. of machine (hint: use Teal Dulcet's script), so I know what machine finished and possibly use details about the process (e.g., name of program, PID, etc.) so I know what process finished and even could maybe grab exitcode to see if it exited succesfully and forward these details to me.
 
 - Could be a simple pipe where the program can be started through a BASH command that is globally recognized in the `.bashrc` file.
+
+# GraphQL -- Keep it on the server side
+Is the GraphQL only on client side? It makes more sense to have it on the server side because this reduces network traffic and bits over the wire. It is the same computation time on the server side.
