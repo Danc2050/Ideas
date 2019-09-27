@@ -156,3 +156,4 @@ Is the GraphQL only on client side? It makes more sense to have it on the server
 2) get/create/utilize a screenshot tool
 3) have the screenshot be sent through the ocr as soon as it is taken and the OCR results outputted to some file (word, doc) that the user chooses.
 4) have a donate tab.
+Here is a good one: http://www-e.uni-magdeburg.de/jschulen/ocr/download.html
