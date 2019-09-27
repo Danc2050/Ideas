@@ -149,3 +149,10 @@ I check long running processes too often. A solution? Email or text me when it i
 
 # GraphQL -- Keep it on the server side
 Is the GraphQL only on client side? It makes more sense to have it on the server side because this reduces network traffic and bits over the wire. It is the same computation time on the server side.
+
+# OCR Screen Grab Tool
+*Steps*
+1) get/create a free Open Source OCR tool
+2) get/create/utilize a screenshot tool
+3) have the screenshot be sent through the ocr as soon as it is taken and the OCR results outputted to some file (word, doc) that the user chooses.
+4) have a donate tab.
