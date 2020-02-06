@@ -157,3 +157,21 @@ Is the GraphQL only on client side? It makes more sense to have it on the server
 3) have the screenshot be sent through the ocr as soon as it is taken and the OCR results outputted to some file (word, doc) that the user chooses.
 4) have a donate tab.
 Here is a good one: http://www-e.uni-magdeburg.de/jschulen/ocr/download.html
+
+# Create tests for all of your program
+
+In Software Engineering I am learning that you can use a graph format to symbolize statements and loops. If such groups of statements are identified as the programmer as doing something (e.g., "Start Microwave"), then we can write tests that form a sentence that is logical to us. 
+
+For example the following is a completed sequence of one path of a program:
+ - open door -> close door -> start timer -> press start -> finished
+But we may have other paths. For example:
+- open door -> close door -> start timer -> press start -> open door -> close door -> press start -> finished
+
+By segmenting each instruction(node), set of instructions (nodes in our graph) we can form logic that our program can test that spans across more than a simple function or line of code. Similar/identical to integration tests. For example, these segments might look like:
+
+- open door -> close door == Putting food into microwave or pausing
+- start timer -> press start  == starting microwave
+- Finished == food is done.
+
+
+
