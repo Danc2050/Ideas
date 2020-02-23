@@ -175,4 +175,13 @@ By segmenting each instruction(node), set of instructions (nodes in our graph), 
 - start timer -> press start  == starting microwave
 - Finished == food is done.
 
-Once the programmer ennumerates these, then he can test that a particular path (e.g., user's desire to do something) works correctly with some specific (mocked) input. If the result == the expected result, then we know the test has passed. NOTE: We don't need to write ANY code or even NAME code except specifying the input that we need and naming the nodes (functions). The naming of tests is done for us when label the nodes. For example, "open door()" followed by closing door could be labeled "opening door TO put food in microwave". The middle words such as "TO" (a preposition) could be inserted somehow automatically perhaps... or the tester could look at the path being taken and name what it is actually doing.
+Once the programmer ennumerates these, then he can test that a particular path (e.g., user's desire to do something) works correctly with some specific (mocked) input. If the result == the expected result, then we know the test has passed. NOTE: We don't need to write ANY code or even NAME code except specifying the input that we need and naming the nodes (functions). The naming of tests is done for us when label the nodes. For example, "open door()" followed by closing door could be labeled "opening door TO put food in microwave". The middle words such as "TO" (a preposition) could be inserted somehow automatically perhaps... or the tester could look at the path being taken and insert the correct preposition (or other gramatical tool) to make clearer what that path is actually doing.
+
+*TODO* One possible issue with this idea is when a function does not have a fine-grained purpose. Like, if there are many `if` and `else` branches that exist. Labeling a function and testing a function still requires giving inputs so these paths are traversed. Still, the number of paths that can be made can still be created and the developer can simply add in the names of these nodes and specify the inputs by hand (perhaps the functions can be generated, based on their paths, and given random names, then those random names change once a develoepr adds in the names of the node and then also the inputs required would be like a syntax error, causing a developer to fix them before compiling). 
+
+There is also the case of changing code and how to handle (remove) old tests/paths. I think the easiest way would be to just find the number of graph states/nodes/edges again and remove tests where no state/node/edge exists and, conversely, adding in a test(s) when a new state/node/edge is created.
+
+## Benefits
+This would be good for software systems that have no tests at all. 
+
+It would also promise "tests that make sense", instead of tests that do not have any human readable value (e.g., what is a CFG to me?).
