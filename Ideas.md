@@ -158,7 +158,7 @@ Is the GraphQL only on client side? It makes more sense to have it on the server
 4) have a donate tab.
 Here is a good one: http://www-e.uni-magdeburg.de/jschulen/ocr/download.html
 
-# Create tests for all of your program
+# Create tests for ALL of your program
 
 In Software Engineering I am learning that you can use a graph format to symbolize statements and loops. If such groups of statements are identified as the programmer as doing something (e.g., "Start Microwave"), then we can write tests that form a sentence that is logical to us. 
 
@@ -167,11 +167,12 @@ For example the following is a completed sequence of one path of a program:
 But we may have other paths. For example:
 - open door -> close door -> start timer -> press start -> open door -> close door -> press start -> finished
 
-By segmenting each instruction(node), set of instructions (nodes in our graph) we can form logic that our program can test that spans across more than a simple function or line of code. Similar/identical to integration tests. For example, these segments might look like:
+By segmenting each instruction(node), set of instructions (nodes in our graph), or functions we can form logic that our program can test that spans across more than a simple function or line of code. Similar/identical to integration tests. For example, these segments might look like:
 
-- open door -> close door == Putting food into microwave or pausing
+- open door() == open door (or pausing)
+- close door() == put food in microwave
+- open door() -> close door() == Putting food into microwave or pausing (Calling two functions example)
 - start timer -> press start  == starting microwave
 - Finished == food is done.
 
-
-
+Once the programmer ennumerates these, then he can test that a particular path (e.g., user's desire to do something) works correctly with some specific (mocked) input. If the result == the expected result, then we know the test has passed. NOTE: We don't need to write ANY code or even NAME code except specifying the input that we need and naming the nodes (functions). The naming of tests is done for us when label the nodes. For example, "open door()" followed by closing door could be labeled "opening door TO put food in microwave". The middle words such as "TO" (a preposition) could be inserted somehow automatically perhaps... or the tester could look at the path being taken and name what it is actually doing.
