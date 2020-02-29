@@ -185,3 +185,10 @@ There is also the case of changing code and how to handle (remove) old tests/pat
 This would be good for software systems that have no tests at all. 
 
 It would also promise "tests that make sense", instead of tests that do not have any human readable value (e.g., what is a CFG to me?).
+
+# Symbolic Execution To Generate Test Cases (I think this is a bad idea, but I'm keeping it).
+The use of Symbolic Executions could be used to generate a test, particularly those that fail. 
+
+This is important as we may wish to test these functions again after changing our code...maybe... or maybe not.
+
+But the ecosystem of testing relies on "Automated" testing currently, and it does not make sense to run a Symbolic Execution engine repeatedly. Then again, running one repeatedly would enable catching of other bugs as time goes on.
