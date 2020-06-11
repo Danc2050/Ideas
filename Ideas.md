@@ -192,3 +192,19 @@ The use of Symbolic Executions could be used to generate a test, particularly th
 This is important as we may wish to test these functions again after changing our code...maybe... or maybe not.
 
 But the ecosystem of testing relies on "Automated" testing currently, and it does not make sense to run a Symbolic Execution engine repeatedly. Then again, running one repeatedly would enable catching of other bugs as time goes on.
+
+# IDE extension To Assign Variables -- An alternative to a debugger
+Sometimes when looking over code, it is useful to know what is exactly passed in to a function and how that variable changes over time. This is also particularly helpful for reading code when bad naming conventions have been used in a dynamically typed language. For example the function
+```
+def fun(variable):
+  ...
+```
+does not tell us much about what the function does or what the variable contains. The code after it also may be equally confusing, so we may struggle to gain understanding without running the code. This option is an inefficient way to do things, especially when one considers the code will likely change over time.
+
+My idea is to create an extension that assigns values to the code (and really runs behind the scenes). By hovering over a section of the code, one may see what the variable contains at that point. 
+
+There are some potential problems:
+* Local scope, global scope -- how you program this could affect the accuracy of results
+* Long runtimes for extension
+* Input may be variable, so it may be best to run things (however, this could be a good guide/start to unerstanding the code and writing code).
+* Input may be interactive
