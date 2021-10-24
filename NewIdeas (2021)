@@ -1,0 +1,29 @@
+Ideas
+--------------
+Delivery/Restaurant App Idea
+
+Hey...so I have a few additional ideas. I was cleaning my room (there is a lesson in here somewhere, lol), and I came across a slip of paper that was in one of our group orders at work. It was people who wanted GrubHub users to use an app/website called menufy (let's people order directly from their website). It got me thinking -- why is it so hard for restaurants to get on to these apps (I assume its hard, otherwise others wouldn't be on it)? Here is my way to make it better (I assume GrubHub and others do not have this):
+
+1. Let restaurants upload a picture of their menu. OCR recognition can do the work and menu items can be made. Or, boxes can be made and then be resized to capture specific menu items. I think Menus are pretty standard, so I see the success rate of something like this working pretty well out of the box (not sure about different cursive fonts).
+2. Would have to be competitive in that we did not charge very much (Grubhub and others charge a maximum of 15% commission) and still able to pay drivers.
+3. A friend of mine also said that he thought maybe it would be worth it to have people compete to deliver jobs for lower prices. This is one thing that apps like GrubHub do not have I noticed...you either have a job with a high price or you don't have a job at all.
+
+---------------
+Crypto Alerts 
+
+I follow a Twitter called CryptoTrendz. One thing they do is alert people when a whale purchases a huge amount of something. I noticed that one alert showed a large rush on Binance, and then after a moment the rush also happened on Coinbase. It went up not much (~1.25%), but one thing that could be done is that I develop my program further to read for those types of events in other exchanges and then monitor how Coinbase reacts (i.e., buy more if it turns out my theory is correct and the crypto has not gone up yet, then sell at some point).
+
+Also, I was thinking that when I reorganize the code, I will put the format of the tables into some class so it is more easily readable and read in all the values into that class then make it a list or something (haven't worked out the details, but we use classes to represent mongo database documents at my work).
+
+Also, I noticed that Coinbase has a blog and they announce when they are adding coins. I REALLY need to write a scraper that scrapes for new posts and look for ones. Some coins jump over 100% just when Coinbase says they will be on there...
+---------------
+Customer Relationship Management (CRM) Modfification
+
+One thing I have realized at my work: people assume other people do their jobs correctly. I am really not confident my company will survive very long. We are making some good changes, but our sales team is way behind the 8 ball. I asked if we were using a CRM such as Hubspot.com and I got the feedback that the billionaire that owns us who is now micromanaging us, Dan Charron, said our sales team will now use their Hubspot account as well (Hubspot was something I looked into with Takeoff LLC, which is why I was aware of it). I guess it takes a billionaire to point how things are done at other companies and for people to listen here...crazy, but this is not the only example at my company.
+
+I have a modification to the typical CRM. A CRM seems useful for reaching out to people, making sure a marketing campaign works, and following up on leads. But what we need is to assess if a customer we take on is like some other customer we've done before. We also need to keep track of what potential customers are asking for so as to know what kind of market we can tap and how to modify our product. Also, if we end up changing our software to work with their hardware/workflow, then we can review our database and reach out again telling them we have updated our software.
+
+--------
+Generic Apps
+
+It appears that a lot of apps are designed for similar purposes, but a lot of, unique in creation (not in essence), apps are created. Instead of creating an app each time an entity wants to do their thing, there should be more apps that enable many organizations or individuals to to do similar things with very little modifications, for a low price. For example, there are many notification apps that alert residents in case of some natural event, but each city seems to make their own app to alert residents. This may be the desire to do it how one wants to do it, but I suspect that there are a number of customers who would really just like the general job to be done just like everyone else. Just at thought; one which is probably not at the top of my list. I guess I am talking about a template for apps really...
